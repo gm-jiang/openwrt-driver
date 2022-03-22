@@ -1,0 +1,5 @@
+config USB_WIFI
+	tristate "USB Wi-Fi driver"
+	depends on USB_SUPPORT
+	help
+	    usb test driver 
